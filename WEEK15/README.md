@@ -18,7 +18,7 @@ For example,
 ## Solution
 给定一个链表和一个数字k，以链表中连续的k个结点为一组，使这k个结点顺序逆转，然后处理下一组结点，直到某一组结点中结点数不足k为止。
 
-![image](https://github.com/Vinsm-L/-WEEK15-LeetCode_Problems/blob/master/linked%20list&ptrs.PNG?raw=true)
+![image](https://github.com/Vinsm-L/LeetCode_Problems/blob/master/WEEK15/linked%20list%26ptrs.PNG)
 
 如上图所示，对一组连续的k个结点进行逆序处理，所使用的算法需要分别指向一头一尾的两个指针begin、end，记录begin、end所在链表位置的变量beginIndex、endIndex，以及指向begin的前一个结点的指针beginBefore和指向end的后一个结点的指针endNext。getNextPtr函数根据传入的index和head指针返回指向链表对应位置的指针。
 
