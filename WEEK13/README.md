@@ -24,7 +24,7 @@ Note: The solution set must not contain duplicate quadruplets.
 
 算法的思想是递推，不断把问题的规模缩小，当缩小到求3 Sum时可以求出解。示意图如下：
 
-![image](https://github.com/Vinsm-L/-WEEK13-LeetCode_Problems/blob/master/%E7%A4%BA%E6%84%8F%E5%9B%BE.PNG?raw=true)
+![image](https://github.com/Vinsm-L/LeetCode_Problems/blob/master/WEEK13/%E7%A4%BA%E6%84%8F%E5%9B%BE.PNG)
 
 箭头旁边是传递给下层的参数。在到达层次3（计算3 Sum）之前的每一个层次中，从起始元素开始，固定每一个元素（将它放入fix中），并将它的下标加一，index+1，
 作为下一个层次的起始元素下标。最后，在更新完要达到的目标值，即currentTarget以后，函数落到下一个层次。
